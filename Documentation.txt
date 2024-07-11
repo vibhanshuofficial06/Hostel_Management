@@ -1,0 +1,14 @@
+The Flask app handles file uploads of CSVs (group and hostel data), processes them to allocate rooms using allocate_rooms, and generates a CSV report with allocation details.
+
+Key Components
+Imports:
+
+Flask, CSV handling (csv), allocation logic (allocate_rooms), and file-like object handling (StringIO).
+Routes:
+
+/: Renders index.html for file uploads.
+/upload (POST): Handles CSV file uploads, processes data, allocates rooms, and returns a downloadable CSV (room_allocation.csv).
+Functions:
+
+process_csv: Reads and converts CSV files into lists of dictionaries.
+generate_csv: Converts allocation results into a CSV string format with specific headers.

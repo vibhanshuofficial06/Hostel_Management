@@ -1,0 +1,2 @@
+1)First upload group_file.csv file  then upload the hostel_file.csv file.
+2)Click on Allocate Rooms button to process the data and allocate rooms.
